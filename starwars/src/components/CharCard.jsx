@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardText, CardBody, CardTitle, CardSubtitle } from "reactstrap";
+import "./StarWars.css";
 
 export default function CharCard(props) {
   return (
@@ -7,7 +8,7 @@ export default function CharCard(props) {
       <Card>
         <CardBody>
           <CardTitle>
-            {props.card.name}, {props.card.gender}
+            Name: {props.card.name},Gender: {props.card.gender}
           </CardTitle>
           <CardSubtitle>Born: {props.card.birth_year}</CardSubtitle>
           <CardText>
