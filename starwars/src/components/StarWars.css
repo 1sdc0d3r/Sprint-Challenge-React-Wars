@@ -1,0 +1,13 @@
+.pageChange {
+  display: flex !important;
+  justify-content: center;
+}
+
+.next {
+  border: 2px solid blue !important;
+  margin: 0 0.25rem;
+}
+.prev {
+  border: 2px solid blue !important;
+  margin: 0 0.25rem;
+}

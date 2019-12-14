@@ -8,7 +8,7 @@ export default function CharCard(props) {
       <Card>
         <CardBody>
           <CardTitle>
-            Name: {props.card.name},Gender: {props.card.gender}
+            Name: {props.card.name}, Gender: {props.card.gender}
           </CardTitle>
           <CardSubtitle>Born: {props.card.birth_year}</CardSubtitle>
           <CardText>
