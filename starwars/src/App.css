@@ -1,8 +1,24 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 .Header {
   color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 2px 7px #fff;
+  margin-top: 1.35rem;
+  font-size: 50px;
 }
 /* write your parent styles in here for your App.js */
+.cardContainer {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.test {
+  margin-top: 10px;
+  border: 2.25px solid blueviolet;
+  width: 30%;
+}
